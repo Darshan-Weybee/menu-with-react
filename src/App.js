@@ -60,7 +60,7 @@ const initialState = [
 export const allContext = React.createContext();
 
 function App() {
-  const [data, setData] = useState(initialState);
+  const [data] = useState(initialState);
 
 
   return (
