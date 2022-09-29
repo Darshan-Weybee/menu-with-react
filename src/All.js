@@ -8,8 +8,8 @@ function All(){
             {
                 data.map(el => {
                     return (
-                        <div className="item">
-                            <div className="item-img"><img src={`${el.img}`} alt="dish image"/></div>
+                        <div className="item" key={el.id}>
+                            <div className="item-img"><img src={`${el.img}`} alt="dish"/></div>
                             <div className="item-detail">
                                 <div className="item-name">
                                     <span className="item-name-n">{el.name}</span>
